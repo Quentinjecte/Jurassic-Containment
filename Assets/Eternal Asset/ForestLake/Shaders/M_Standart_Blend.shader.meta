@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e76cbf4d939c5ef459b44f0094fd915d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 259547
+  packageName: ForestLake
+  packageVersion: 1.5
+  assetPath: Assets/ForestLake/Shaders/M_Standart_Blend.shader
+  uploadId: 925456
