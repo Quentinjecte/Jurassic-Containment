@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bd48de47a970b744eafa06718783328a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332900
+  packageName: mtf enviro
+  packageVersion: 1.0
+  assetPath: Assets/Hivemind/MTF_Environment/HDRP(Default)/Scenes/MTF_L/LightingData.asset
+  uploadId: 787890

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 807d49ff0afba3a43acc38eaab6a21a5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332900
+  packageName: mtf enviro
+  packageVersion: 1.0
+  assetPath: Assets/Hivemind/MTF_Environment/HDRP(Default)/Art/Assets/Materials/MI_FireExtinguisher.mat
+  uploadId: 787890

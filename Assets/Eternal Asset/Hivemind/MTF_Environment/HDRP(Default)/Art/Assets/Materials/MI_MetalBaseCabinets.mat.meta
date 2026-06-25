@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cbd4bc946f66dd74e9d2486cfaee8804
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332900
+  packageName: mtf enviro
+  packageVersion: 1.0
+  assetPath: Assets/Hivemind/MTF_Environment/HDRP(Default)/Art/Assets/Materials/MI_MetalBaseCabinets.mat
+  uploadId: 787890

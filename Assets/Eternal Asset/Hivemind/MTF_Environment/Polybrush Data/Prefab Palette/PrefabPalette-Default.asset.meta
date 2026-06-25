@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: abca826fb23d9904da629bd18456456b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332900
+  packageName: mtf enviro
+  packageVersion: 1.0
+  assetPath: Assets/Hivemind/MTF_Environment/Polybrush Data/Prefab Palette/PrefabPalette-Default.asset
+  uploadId: 787890

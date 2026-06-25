@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e6f99812ca2d22a4c98d5e88e4d78f2a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332900
+  packageName: mtf enviro
+  packageVersion: 1.0
+  assetPath: Assets/Hivemind/MTF_Environment/HDRP(Default)/Art/Shaders/S_BasicTextured.shadergraph
+  uploadId: 787890

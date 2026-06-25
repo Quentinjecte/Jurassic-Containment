@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cc934aa6d63b2e44db55fa6d42c877e4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332900
+  packageName: mtf enviro
+  packageVersion: 1.0
+  assetPath: Assets/Hivemind/MTF_Environment/HDRP(Default)/Art/Assets/Materials/MI_Lock.mat
+  uploadId: 787890

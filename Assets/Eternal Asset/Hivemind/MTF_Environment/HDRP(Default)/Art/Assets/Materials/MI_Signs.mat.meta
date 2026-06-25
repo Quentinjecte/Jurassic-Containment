@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d9d914b0bc51c1a408db2ea89ee55df5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332900
+  packageName: mtf enviro
+  packageVersion: 1.0
+  assetPath: Assets/Hivemind/MTF_Environment/HDRP(Default)/Art/Assets/Materials/MI_Signs.mat
+  uploadId: 787890

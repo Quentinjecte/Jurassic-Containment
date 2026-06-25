@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b6b67a7ce508dce45aca00e60c9f0441
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332900
+  packageName: mtf enviro
+  packageVersion: 1.0
+  assetPath: Assets/Hivemind/MTF_Environment/HDRP(Default)/Art/Assets/Materials/MI_Door_lamp.mat
+  uploadId: 787890

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 00801e6809239c94d9a25c72eddae6c5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332900
+  packageName: mtf enviro
+  packageVersion: 1.0
+  assetPath: Assets/Hivemind/MTF_Environment/HDRP(Default)/Art/Assets/Materials/MI_AmmoCartridgeBoxes_var_01.mat
+  uploadId: 787890

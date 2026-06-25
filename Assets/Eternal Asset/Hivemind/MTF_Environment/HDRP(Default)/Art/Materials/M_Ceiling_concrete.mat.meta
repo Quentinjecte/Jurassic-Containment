@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abc00000000017263166413625572739
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332900
+  packageName: mtf enviro
+  packageVersion: 1.0
+  assetPath: Assets/Hivemind/MTF_Environment/HDRP(Default)/Art/Materials/M_Ceiling_concrete.mat
+  uploadId: 787890
