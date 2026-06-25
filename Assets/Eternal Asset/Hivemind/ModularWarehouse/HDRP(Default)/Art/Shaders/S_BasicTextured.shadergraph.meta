@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 37e2b1bab30892e4287f4643560ce877
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 341146
+  packageName: Modular Warehouse (Warehouse, Industrial Warehouse, Hangar, Factory,
+    Warehouse)
+  packageVersion: 1.0
+  assetPath: Assets/Hivemind/ModularWarehouse/HDRP(Default)/Art/Shaders/S_BasicTextured.shadergraph
+  uploadId: 809070

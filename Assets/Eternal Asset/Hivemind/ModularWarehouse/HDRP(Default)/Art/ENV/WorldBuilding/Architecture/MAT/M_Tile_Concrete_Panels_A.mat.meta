@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: abc00000000000449536699161710072
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 341146
+  packageName: Modular Warehouse (Warehouse, Industrial Warehouse, Hangar, Factory,
+    Warehouse)
+  packageVersion: 1.0
+  assetPath: Assets/Hivemind/ModularWarehouse/HDRP(Default)/Art/ENV/WorldBuilding/Architecture/MAT/M_Tile_Concrete_Panels_A.mat
+  uploadId: 809070
