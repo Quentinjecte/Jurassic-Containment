@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: 16c75e439587889479b362bbc6b42611
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ammo-Box-Holder.001
+    second: {fileID: 2100000, guid: c2568c0439fb306418694ca498a031ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BODY.001
+    second: {fileID: 2100000, guid: c5f7f43ab6be6a94d8468dd5bb8a83b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EQUIPMENT.001
+    second: {fileID: 2100000, guid: 6e2f989efad1f714c9da6db1e1d1c24e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HATCH
+    second: {fileID: 2100000, guid: c7e1db64d42035248afc18d25478f996, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HUD.001
+    second: {fileID: 2100000, guid: b9e48a70954317e4f8d0f67edf87adbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IRON.001
+    second: {fileID: 2100000, guid: 33f5b2c035da00545b21e062c81639f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LIGHT.001
+    second: {fileID: 2100000, guid: 1dad83fd2b26fca4dac568bed3ec7271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MATERIAL
+    second: {fileID: 2100000, guid: 2b560f7e7bfc5d64db89d1a20e2adb92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: METAL.001
+    second: {fileID: 2100000, guid: 641cc6dc5d201614ca16988b92529c8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PAINT.001
+    second: {fileID: 2100000, guid: ca9268fe74ef4284a8c02a5cb9f284f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PLANKS
+    second: {fileID: 2100000, guid: 290d6f237da7b1f40bda9497417c43b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RIM.001
+    second: {fileID: 2100000, guid: a0b3c6224c50edc4ab687b41630b91a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RIM2
+    second: {fileID: 2100000, guid: 51389727cb04ba14a9790a177349e42e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROPE
+    second: {fileID: 2100000, guid: dec3b3412c4643e4fb7c4bd807ec8361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SEAT001.001
+    second: {fileID: 2100000, guid: e5188faa74235ef4fac8c8af4fdd00ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIRE.001
+    second: {fileID: 2100000, guid: 42caf79bf1eb51845ad1f3939477bbf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIRE2
+    second: {fileID: 2100000, guid: 482e99bec945d0d4f81f06a0804d2185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WINDOW.001
+    second: {fileID: 2100000, guid: dfb787f053554c04387c3a1c557fa912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckle_005%2E002
+    second: {fileID: 2100000, guid: 437739ca3f4ab1e40ba4e762ad296266, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cover_006.001
+    second: {fileID: 2100000, guid: 8764c9bc5dd7ad24cba3536e0ac4efc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lid.001
+    second: {fileID: 2100000, guid: 76e93b61b21696345b2728a79a992329, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main%2E004
+    second: {fileID: 2100000, guid: 42d1341d6d1affa4796d3e1f136fe797, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main.001
+    second: {fileID: 2100000, guid: 4cb8515fbbfff1a4aa637f5509374cc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pocket_003%2E001
+    second: {fileID: 2100000, guid: e1f013d0b9e4bc8418844c194928b7ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: strap_014%2E001
+    second: {fileID: 2100000, guid: 1e502247e409b954dafda625d71e9a73, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ammo-Box-Holder-3A-3Abase_color-3A-3Aimage
+    second: {fileID: 2800000, guid: 66713fcdd874d7a46b671d265bd582be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ammo-Box-Holder-3A-3Anormal-3A-3Aimage
+    second: {fileID: 2800000, guid: bac6bf6f1c2a76f42ae18c97386863dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BODY_base_color
+    second: {fileID: 2800000, guid: 21958d249c3f2ec43b3afe9933969d9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BODY_normal
+    second: {fileID: 2800000, guid: 867a84923201a4448ac3650f4d10fd60, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: EQUIPMENT_base_color
+    second: {fileID: 2800000, guid: 982e6c20420f0aa4589c2da7d4746b0f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: EQUIPMENT_normal
+    second: {fileID: 2800000, guid: 9b560239a2fa3034a84cdef294d591a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: HATCH_base_color
+    second: {fileID: 2800000, guid: 58be77c9f1e90c5489e2eee353d8dbaa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: HUD_base_color
+    second: {fileID: 2800000, guid: 282ccf85d43e3884e969bf6d1fcdcad8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: HUD_normal
+    second: {fileID: 2800000, guid: dd1d0efc4c3c44540b7abaf0d04dac36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IRON_base_color
+    second: {fileID: 2800000, guid: 5161703c90ed81d4789bf76b943ec81c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IRON_normal
+    second: {fileID: 2800000, guid: 54e1b54e1a9637f4bb9626a6659b2dbc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LIGHT_base_color
+    second: {fileID: 2800000, guid: fbd24b82068985d41ade6065c4cd9b27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LIGHT_emission_color
+    second: {fileID: 2800000, guid: 35a665ea5a979dd46bdf2f7b522537cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LIGHT_normal
+    second: {fileID: 2800000, guid: f3cb9b99ae1a5d64c9d39f804bcc3070, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: METAL_base_color
+    second: {fileID: 2800000, guid: d020b8146c388ed4e83fd002705f0a5a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: METAL_normal
+    second: {fileID: 2800000, guid: 07a858e2a6717ae4987672f93ecf42cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ME_rifle-bag_lid_AlbedoTransparency
+    second: {fileID: 2800000, guid: 5ecefb30ce3435b4197b0a13f8b96b9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ME_rifle-bag_lid_Normal
+    second: {fileID: 2800000, guid: 0ad87634ac79e184d957fb89dddc9b2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ME_rifle-bag_main_AlbedoTransparency
+    second: {fileID: 2800000, guid: fc6b97d83b0120540b967ff9d0a3c628, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ME_rifle-bag_main_Normal
+    second: {fileID: 2800000, guid: 49d33cc388486c0429c6e8decc893e2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PAINT_base_color
+    second: {fileID: 2800000, guid: 6f70d2c7c23abf44d9958f89815ab63d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PAINT_normal
+    second: {fileID: 2800000, guid: 1a2b8d73e63521047938b04d3e1022b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PLANKS_base_color
+    second: {fileID: 2800000, guid: f3b67de7e117bf14bb80cfc36bee9358, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PLANKS_normal
+    second: {fileID: 2800000, guid: c2e708d5cb82bda41aa88898b53c9ffd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RIM-3A-3Abase_color-3A-3Aimage2
+    second: {fileID: 2800000, guid: 811a64e11ea15a6499a5df00790a90e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RIM-3A-3Anormal-3A-3Aimage2
+    second: {fileID: 2800000, guid: f56a4dd8e86a63046be4e19485148a53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RIM_base_color
+    second: {fileID: 2800000, guid: c5f363f02c641a64eaf833f4c09bf2b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RIM_normal
+    second: {fileID: 2800000, guid: 808e74170f5c85445ac1896dd716cf11, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ROPE_base_color
+    second: {fileID: 2800000, guid: fae0c4ae098b76e4fa27210fefdefb72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SEAT001_base_color
+    second: {fileID: 2800000, guid: bddb0a0ede6fad749a696cf787fd9546, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SEAT001_normal
+    second: {fileID: 2800000, guid: 7c75ba12679af544186954bbd75323d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TIRE-3A-3Abase_color-3A-3Aimage2
+    second: {fileID: 2800000, guid: e6387d22be24d1f45881691f70d267ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TIRE-3A-3Anormal-3A-3Aimage2
+    second: {fileID: 2800000, guid: 834da9092caea6a4089610a01c1af829, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TIRE_base_color
+    second: {fileID: 2800000, guid: 991272a08ed784a4cb1b66ba0b803fcc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TIRE_normal
+    second: {fileID: 2800000, guid: 6342ce476dc4e8e4f8c249eb359dbf9e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WINDOW_normal
+    second: {fileID: 2800000, guid: 1e393c2f85d6648468f149a4ae65e6b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: box_hatch_Normal
+    second: {fileID: 2800000, guid: 1744c28b52a615843a1705e0fc7df45b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: box_rope_Normal
+    second: {fileID: 2800000, guid: 82007a7d6e77cb14ab9df917c9535c64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: buckle_005-252E002-3A-3Abase_color-3A-3Aimage
+    second: {fileID: 2800000, guid: 5e7f0925ea41c844dab30fdfaaad7140, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: buckle_005-252E002-3A-3Anormal-3A-3Aimage
+    second: {fileID: 2800000, guid: 641a27266f2d20a468894253155e9765, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cover_006-3A-3Abase_color-3A-3Aimage
+    second: {fileID: 2800000, guid: cb19cdfe3846f7a4c8ed935db0ac3212, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cover_006-3A-3Anormal-3A-3Aimage
+    second: {fileID: 2800000, guid: e078df4749a38c04faff86dead0e4f85, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: main-252E004-3A-3Abase_color-3A-3Aimage
+    second: {fileID: 2800000, guid: cb187dca21379c54786f278d6c3309c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: main-252E004-3A-3Anormal-3A-3Aimage
+    second: {fileID: 2800000, guid: ecc6c7127eb25b344b6a002d4c3d74b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pocket_003-252E001-3A-3Abase_color-3A-3Aimage
+    second: {fileID: 2800000, guid: c3e3559034e4a904e88ec456fdfc291b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pocket_003-252E001-3A-3Anormal-3A-3Aimage
+    second: {fileID: 2800000, guid: 526a57ec295c47245a25323cd1a904b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: strap_014-252E001-3A-3Abase_color-3A-3Aimage
+    second: {fileID: 2800000, guid: f54ac0125a6d7ac47847caefb0a02102, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: strap_014-252E001-3A-3Anormal-3A-3Aimage
+    second: {fileID: 2800000, guid: 25343f70814de1240875a072219d1495, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tarpaulin_DefaultMaterial_AlbedoTransparency
+    second: {fileID: 2800000, guid: a6d9d55debba2494ab3379fbe7bd6fbb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tarpaulin_DefaultMaterial_Normal
+    second: {fileID: 2800000, guid: 7b1bb0d04d424584da5f64814395027e, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

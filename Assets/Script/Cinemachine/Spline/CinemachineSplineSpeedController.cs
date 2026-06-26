@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.Splines;
+using Assets.Script.Utils;
 
 public class CinemachineSplineSpeedController : MonoBehaviour
 {
@@ -35,7 +36,7 @@ public class CinemachineSplineSpeedController : MonoBehaviour
     public List<KnotSpeed> knotSpeeds = new List<KnotSpeed>();
 
     private KnotLinkCollection knotLinks;
-
+/*
     private void Awake()
     {
         if (splineDolly == null)
@@ -43,7 +44,7 @@ public class CinemachineSplineSpeedController : MonoBehaviour
 
         splineContainer = splineDolly.Spline;
         RefreshKnotList();
-    }
+    }*/
 
     /*private void OnValidate()
     {
@@ -61,13 +62,25 @@ public class CinemachineSplineSpeedController : MonoBehaviour
     {
         if (splineDolly == null)
         {
-            Debug.LogWarning("CinemachineSplineSpeedController: splineDolly is null. Please assign a CinemachineSplineDolly component.");
-            return;
+            var splineDollyComponent = ComponentExtensions.GetComponentSafe<CinemachineSplineDolly>(this, "CinemachineSplineSpeedController: splineDolly is null. Please assign a CinemachineSplineDolly component.");
+            if (splineDollyComponent != null)
+            {
+                Debug.LogWarning($"Warning the component of type {splineDollyComponent} is auto-assigned. Be careful!");
+                splineDolly = splineDollyComponent;
+            }
+            else
+                return;
         }
         if (splineContainer == null)
         {
-            Debug.LogWarning("CinemachineSplineSpeedController: splineContainer is null.");
-            return;
+            var splineContainerComponent = splineDolly.Spline;
+            if (splineContainerComponent != null)
+            {
+                Debug.LogWarning($"Warning the component of type {splineContainerComponent} is auto-assigned. Be careful!");
+                splineContainer = splineContainerComponent;
+            }
+            else
+                return;
         }
 
         //knotLinks = splineContainer.Splines.;
