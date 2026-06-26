@@ -176,7 +176,6 @@ MonoBehaviour:
   m_Name: VisualEnvironment
   m_EditorClassIdentifier: 
   active: 1
-  m_Version: 1
   skyType:
     m_OverrideState: 1
     m_Value: 4
@@ -207,6 +206,7 @@ MonoBehaviour:
   fogType:
     m_OverrideState: 1
     m_Value: 0
+  m_Version: 1
 --- !u!114 &-5373361800840896567
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -407,7 +407,6 @@ MonoBehaviour:
   - {fileID: 7136568773204531929}
   - {fileID: 8197625788934164559}
   - {fileID: -8427868046176389735}
-  - {fileID: 2366960946951592232}
 --- !u!114 &287104711101351794
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -451,16 +450,6 @@ MonoBehaviour:
   includeSunInBaking:
     m_OverrideState: 1
     m_Value: 0
-  m_SkyVersion: 2
-  m_ObsoleteEarthPreset:
-    m_OverrideState: 1
-    m_Value: 1
-  planetaryRadius:
-    m_OverrideState: 1
-    m_Value: 6378100
-  planetCenterPosition:
-    m_OverrideState: 1
-    m_Value: {x: 0, y: -6378100, z: 0}
   type:
     m_OverrideState: 1
     m_Value: 1
@@ -551,6 +540,16 @@ MonoBehaviour:
   horizonZenithShift:
     m_OverrideState: 1
     m_Value: 0
+  m_SkyVersion: 2
+  m_ObsoleteEarthPreset:
+    m_OverrideState: 1
+    m_Value: 1
+  planetaryRadius:
+    m_OverrideState: 1
+    m_Value: 6378100
+  planetCenterPosition:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: -6378100, z: 0}
 --- !u!114 &1074474269968161789
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -635,14 +634,11 @@ MonoBehaviour:
     m_Value: 64
   m_VolumetricFogBudget:
     m_OverrideState: 1
-    m_Value: 0.333
+    m_Value: 0.33
   m_ResolutionDepthRatio:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.666
   directionalLightsOnly:
-    m_OverrideState: 0
-    m_Value: 0
-  volumetricLightingDensityCutoff:
     m_OverrideState: 0
     m_Value: 0
 --- !u!114 &1103804235018930674
@@ -685,26 +681,6 @@ MonoBehaviour:
   opacity:
     m_OverrideState: 1
     m_Value: 1
---- !u!114 &2366960946951592232
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a7ff42a8c5be6646ad3975f3a54c1eb, type: 3}
-  m_Name: DiffusionProfileList
-  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DiffusionProfileList
-  active: 0
-  diffusionProfiles:
-    m_OverrideState: 1
-    m_Value:
-    - {fileID: 11400000, guid: 7c917711af4cf574da202ea1bb5544f7, type: 2}
-    - {fileID: 11400000, guid: 5bca93250ab93654bbf433e391998622, type: 2}
-    - {fileID: 11400000, guid: df4b80a0065ad524eb43ea8c570ccfe0, type: 2}
-    - {fileID: 11400000, guid: 9dbb72422dd5808488c423471c355d0f, type: 2}
 --- !u!114 &4932176022681215057
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -767,10 +743,10 @@ MonoBehaviour:
     m_Value: 0
   m_MaximumRadiusInPixels:
     m_OverrideState: 1
-    m_Value: 32
+    m_Value: 40
   m_BilateralUpsample:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   m_DirectionCount:
     m_OverrideState: 1
     m_Value: 2
@@ -799,25 +775,6 @@ MonoBehaviour:
   m_Name: VolumetricClouds
   m_EditorClassIdentifier: 
   active: 1
-  m_Version: 3
-  localClouds:
-    m_OverrideState: 1
-    m_Value: 0
-  m_ObsoleteWindSpeed:
-    m_OverrideState: 1
-    m_Value: 1
-  m_ObsoleteOrientation:
-    m_OverrideState: 1
-    m_Value: 0
-  m_ObsoleteShapeOffsetX:
-    m_OverrideState: 1
-    m_Value: 0
-  m_ObsoleteShapeOffsetY:
-    m_OverrideState: 1
-    m_Value: 0
-  m_ObsoleteShapeOffsetZ:
-    m_OverrideState: 1
-    m_Value: 0
   enable:
     m_OverrideState: 1
     m_Value: 1
@@ -1110,6 +1067,25 @@ MonoBehaviour:
     m_Value: 1
   shadowOpacityFallback:
     m_OverrideState: 0
+    m_Value: 0
+  m_Version: 3
+  localClouds:
+    m_OverrideState: 1
+    m_Value: 0
+  m_ObsoleteWindSpeed:
+    m_OverrideState: 1
+    m_Value: 1
+  m_ObsoleteOrientation:
+    m_OverrideState: 1
+    m_Value: 0
+  m_ObsoleteShapeOffsetX:
+    m_OverrideState: 1
+    m_Value: 0
+  m_ObsoleteShapeOffsetY:
+    m_OverrideState: 1
+    m_Value: 0
+  m_ObsoleteShapeOffsetZ:
+    m_OverrideState: 1
     m_Value: 0
 --- !u!114 &7136568773204531929
 MonoBehaviour:
