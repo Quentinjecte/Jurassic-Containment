@@ -60,28 +60,23 @@ public class CinemachineSplineSpeedController : MonoBehaviour
     /// </summary>
     public void RefreshKnotList()
     {
-        if (splineDolly == null)
+        var splineDollyComponent = ComponentExtensions.GetComponentSafe<CinemachineSplineDolly>(this, "CinemachineSplineSpeedController: splineDolly is null. Please assign a CinemachineSplineDolly component.");
+        if (splineDollyComponent != null)
         {
-            var splineDollyComponent = ComponentExtensions.GetComponentSafe<CinemachineSplineDolly>(this, "CinemachineSplineSpeedController: splineDolly is null. Please assign a CinemachineSplineDolly component.");
-            if (splineDollyComponent != null)
-            {
-                Debug.LogWarning($"Warning the component of type {splineDollyComponent} is auto-assigned. Be careful!");
-                splineDolly = splineDollyComponent;
-            }
-            else
-                return;
+            Debug.LogWarning($"Warning the component of type {splineDollyComponent} is auto-assigned. Be careful!");
+            splineDolly = splineDollyComponent;
         }
-        if (splineContainer == null)
+        else
+            return;
+
+        var splineContainerComponent = splineDolly.Spline;
+        if (splineContainerComponent != null)
         {
-            var splineContainerComponent = splineDolly.Spline;
-            if (splineContainerComponent != null)
-            {
-                Debug.LogWarning($"Warning the component of type {splineContainerComponent} is auto-assigned. Be careful!");
-                splineContainer = splineContainerComponent;
-            }
-            else
-                return;
+            Debug.LogWarning($"Warning the component of type {splineContainerComponent} is auto-assigned. Be careful!");
+            splineContainer = splineContainerComponent;
         }
+        else
+            return;
 
         //knotLinks = splineContainer.Splines.;
         // Resize propre

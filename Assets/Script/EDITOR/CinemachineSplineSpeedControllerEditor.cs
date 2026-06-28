@@ -14,7 +14,7 @@ public class CinemachineSplineSpeedControllerEditor : Editor
 
         EditorGUILayout.Space(10);
 
-        if (GUILayout.Button("Update"))
+        if (GUILayout.Button("Refrech"))
         {
             // Accès direct à target (le composant) pour des opérations custom
             var comp = (CinemachineSplineSpeedController)target;
@@ -24,5 +24,4 @@ public class CinemachineSplineSpeedControllerEditor : Editor
 
         serializedObject.ApplyModifiedProperties();
     }
-
 }

@@ -63,6 +63,7 @@ public class CinematicCameraShake : MonoBehaviour
 
     public void SetActive(bool active)
     {
+        Debug.Log($"CinematicCameraShake.SetActive({active}) called on {gameObject.name}");
         activeOnStart = active;
     }
 

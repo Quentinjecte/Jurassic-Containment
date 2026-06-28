@@ -278,18 +278,18 @@ MonoBehaviour:
     supportTerrainHole: 0
     lightProbeSystem: 1
     oldLightProbeSystem: 1
-    probeVolumeMemoryBudget: 1024
-    supportProbeVolumeGPUStreaming: 0
+    probeVolumeMemoryBudget: 2048
+    supportProbeVolumeGPUStreaming: 1
     supportProbeVolumeDiskStreaming: 0
     probeVolumeSHBands: 1
-    supportProbeVolumeScenarios: 0
-    supportProbeVolumeScenarioBlending: 1
+    supportProbeVolumeScenarios: 1
+    supportProbeVolumeScenarioBlending: 0
     probeVolumeBlendingMemoryBudget: 128
     supportRayTracing: 0
     supportVFXRayTracing: 0
     supportedRayTracingMode: 3
     lightLoopSettings:
-      cookieAtlasSize: 512
+      cookieAtlasSize: 1024
       cookieFormat: 74
       cookieAtlasLastValidMip: 0
       cookieTexArraySize: 16
