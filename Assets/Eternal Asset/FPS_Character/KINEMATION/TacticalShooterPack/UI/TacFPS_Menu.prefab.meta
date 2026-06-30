@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eae1d426d92dd8b4bb5c861601e74697
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311410
+  packageName: Tactical FPS Animations
+  packageVersion: 1.1.1
+  assetPath: Assets/KINEMATION/TacticalShooterPack/UI/TacFPS_Menu.prefab
+  uploadId: 817182

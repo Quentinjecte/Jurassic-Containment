@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1016ef5ac53aaad49ab9cdb656e2014a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311410
+  packageName: Tactical FPS Animations
+  packageVersion: 1.1.1
+  assetPath: Assets/scriptable-animation-system-main/Assets/Demo/Level/New Lighting
+    Settings.lighting
+  uploadId: 817182
