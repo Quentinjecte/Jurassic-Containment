@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9c04639ae548bdb0a8e927492d029d, type: 3}
+  m_Name: Rig_characters3d.com - Zombie Damage
+  m_EditorClassIdentifier: KAnimationCore.Runtime::KINEMATION.KAnimationCore.Runtime.Rig.KRig
+  targetAnimator: {fileID: 0}
+  rigHierarchy:
+  - name: characters3d.com - Zombie Damage
+    index: 0
+    depth: -1
+  - name: characters3d.com___Hips
+    index: 1
+    depth: -1
+  - name: characters3d.com___L_Upper_Leg
+    index: 2
+    depth: -1
+  - name: characters3d.com___L_Lower_Leg
+    index: 3
+    depth: -1
+  - name: characters3d.com___L_Foot
+    index: 4
+    depth: -1
+  - name: characters3d.com___L_Toes
+    index: 5
+    depth: -1
+  - name: characters3d.com___L_Toes_Tip
+    index: 6
+    depth: -1
+  - name: characters3d.com___R_Upper_Leg
+    index: 7
+    depth: -1
+  - name: characters3d.com___R_Lower_Leg
+    index: 8
+    depth: -1
+  - name: characters3d.com___R_Foot
+    index: 9
+    depth: -1
+  - name: characters3d.com___R_Toes
+    index: 10
+    depth: -1
+  - name: characters3d.com___R_Toes_Tip
+    index: 11
+    depth: -1
+  - name: characters3d.com___Spine
+    index: 12
+    depth: -1
+  - name: characters3d.com___Chest
+    index: 13
+    depth: -1
+  - name: characters3d.com___Upper_Chest
+    index: 14
+    depth: -1
+  - name: characters3d.com___L_Shoulder
+    index: 15
+    depth: -1
+  - name: characters3d.com___L_Upper_Arm
+    index: 16
+    depth: -1
+  - name: characters3d.com___L_Lower_Arm
+    index: 17
+    depth: -1
+  - name: characters3d.com___L_Hand
+    index: 18
+    depth: -1
+  - name: characters3d.com___L_Index_Proximal
+    index: 19
+    depth: -1
+  - name: characters3d.com___L_Index_Intermediate
+    index: 20
+    depth: -1
+  - name: characters3d.com___L_Index_Distal
+    index: 21
+    depth: -1
+  - name: characters3d.com___L_Index_Distal_Tip
+    index: 22
+    depth: -1
+  - name: characters3d.com___L_Little_Proximal
+    index: 23
+    depth: -1
+  - name: characters3d.com___L_Little_Intermediate
+    index: 24
+    depth: -1
+  - name: characters3d.com___L_Little_Distal
+    index: 25
+    depth: -1
+  - name: characters3d.com___L_Little_Distal_Tip
+    index: 26
+    depth: -1
+  - name: characters3d.com___L_Middle_Proximal
+    index: 27
+    depth: -1
+  - name: characters3d.com___L_Middle_Intermediate
+    index: 28
+    depth: -1
+  - name: characters3d.com___L_Middle_Distal
+    index: 29
+    depth: -1
+  - name: characters3d.com___L_Middle_Distal_Tip
+    index: 30
+    depth: -1
+  - name: characters3d.com___L_Ring_Proximal
+    index: 31
+    depth: -1
+  - name: characters3d.com___L_Ring_Intermediate
+    index: 32
+    depth: -1
+  - name: characters3d.com___L_Ring_Distal
+    index: 33
+    depth: -1
+  - name: characters3d.com___L_Ring_Distal_Tip
+    index: 34
+    depth: -1
+  - name: characters3d.com___L_Thumb_Proximal
+    index: 35
+    depth: -1
+  - name: characters3d.com___L_Thumb_Intermediate
+    index: 36
+    depth: -1
+  - name: characters3d.com___L_Thumb_Distal
+    index: 37
+    depth: -1
+  - name: characters3d.com___L_Thumb_Distal_Tip
+    index: 38
+    depth: -1
+  - name: characters3d.com___Neck
+    index: 39
+    depth: -1
+  - name: characters3d.com___Head
+    index: 40
+    depth: -1
+  - name: characters3d.com___Head_Tip
+    index: 41
+    depth: -1
+  - name: characters3d.com___R_Shoulder
+    index: 42
+    depth: -1
+  - name: characters3d.com___R_Upper_Arm
+    index: 43
+    depth: -1
+  - name: characters3d.com___R_Lower_Arm
+    index: 44
+    depth: -1
+  - name: characters3d.com___R_Hand
+    index: 45
+    depth: -1
+  - name: characters3d.com___R_Index_Proximal
+    index: 46
+    depth: -1
+  - name: characters3d.com___R_Index_Intermediate
+    index: 47
+    depth: -1
+  - name: characters3d.com___R_Index_Distal
+    index: 48
+    depth: -1
+  - name: characters3d.com___R_Index_Distal_Tip
+    index: 49
+    depth: -1
+  - name: characters3d.com___R_Little_Proximal
+    index: 50
+    depth: -1
+  - name: characters3d.com___R_Little_Intermediate
+    index: 51
+    depth: -1
+  - name: characters3d.com___R_Little_Distal
+    index: 52
+    depth: -1
+  - name: characters3d.com___R_Little_Distal_Tip
+    index: 53
+    depth: -1
+  - name: characters3d.com___R_Middle_Proximal
+    index: 54
+    depth: -1
+  - name: characters3d.com___R_Middle_Intermediate
+    index: 55
+    depth: -1
+  - name: characters3d.com___R_Middle_Distal
+    index: 56
+    depth: -1
+  - name: characters3d.com___R_Middle_Distal_Tip
+    index: 57
+    depth: -1
+  - name: characters3d.com___R_Ring_Proximal
+    index: 58
+    depth: -1
+  - name: characters3d.com___R_Ring_Intermediate
+    index: 59
+    depth: -1
+  - name: characters3d.com___R_Ring_Distal
+    index: 60
+    depth: -1
+  - name: characters3d.com___R_Ring_Distal_Tip
+    index: 61
+    depth: -1
+  - name: characters3d.com___R_Thumb_Proximal
+    index: 62
+    depth: -1
+  - name: characters3d.com___R_Thumb_Intermediate
+    index: 63
+    depth: -1
+  - name: characters3d.com___R_Thumb_Distal
+    index: 64
+    depth: -1
+  - name: characters3d.com___R_Thumb_Distal_Tip
+    index: 65
+    depth: -1
+  - name: Model
+    index: 66
+    depth: -1
+  rigElementChains:
+  - chainName: Hips
+    elementChain:
+    - name: characters3d.com___Hips
+      index: 1
+      depth: 0
+  - chainName: spine_01
+    elementChain:
+    - name: characters3d.com___Spine
+      index: 12
+      depth: 0
+    - name: characters3d.com___Chest
+      index: 13
+      depth: 0
+    - name: characters3d.com___Upper_Chest
+      index: 14
+      depth: 0
+  - chainName: LeftShoulder
+    elementChain:
+    - name: characters3d.com___L_Shoulder
+      index: 15
+      depth: 0
+    - name: characters3d.com___L_Upper_Arm
+      index: 16
+      depth: 0
+    - name: characters3d.com___L_Lower_Arm
+      index: 17
+      depth: 0
+    - name: characters3d.com___L_Hand
+      index: 18
+      depth: 0
+  - chainName: LeftIndex
+    elementChain:
+    - name: characters3d.com___L_Index_Proximal
+      index: 19
+      depth: 0
+    - name: characters3d.com___L_Index_Intermediate
+      index: 20
+      depth: 0
+    - name: characters3d.com___L_Index_Distal
+      index: 21
+      depth: 0
+  - chainName: LeftMiddle
+    elementChain:
+    - name: characters3d.com___L_Middle_Proximal
+      index: 27
+      depth: 0
+    - name: characters3d.com___L_Middle_Intermediate
+      index: 28
+      depth: 0
+    - name: characters3d.com___L_Middle_Distal
+      index: 29
+      depth: 0
+  - chainName: LeftPinky
+    elementChain:
+    - name: characters3d.com___L_Little_Proximal
+      index: 23
+      depth: 0
+    - name: characters3d.com___L_Little_Intermediate
+      index: 24
+      depth: 0
+    - name: characters3d.com___L_Little_Distal
+      index: 25
+      depth: 0
+  - chainName: LeftRing
+    elementChain:
+    - name: characters3d.com___L_Ring_Proximal
+      index: 31
+      depth: 0
+    - name: characters3d.com___L_Ring_Intermediate
+      index: 32
+      depth: 0
+    - name: characters3d.com___L_Ring_Distal
+      index: 33
+      depth: 0
+  - chainName: LeftThumb
+    elementChain:
+    - name: characters3d.com___L_Thumb_Proximal
+      index: 35
+      depth: 0
+    - name: characters3d.com___L_Thumb_Intermediate
+      index: 36
+      depth: 0
+    - name: characters3d.com___L_Thumb_Distal
+      index: 37
+      depth: 0
+  - chainName: RightShoulder
+    elementChain:
+    - name: characters3d.com___R_Shoulder
+      index: 42
+      depth: -1
+    - name: characters3d.com___R_Upper_Arm
+      index: 43
+      depth: -1
+    - name: characters3d.com___R_Lower_Arm
+      index: 44
+      depth: -1
+    - name: characters3d.com___R_Hand
+      index: 45
+      depth: -1
+  - chainName: RightIndex
+    elementChain:
+    - name: characters3d.com___R_Index_Proximal
+      index: 46
+      depth: 0
+    - name: characters3d.com___R_Index_Intermediate
+      index: 47
+      depth: 0
+    - name: characters3d.com___R_Index_Distal
+      index: 48
+      depth: 0
+  - chainName: RightMiddle
+    elementChain:
+    - name: characters3d.com___R_Middle_Proximal
+      index: 54
+      depth: 0
+    - name: characters3d.com___R_Middle_Intermediate
+      index: 55
+      depth: 0
+    - name: characters3d.com___R_Middle_Distal
+      index: 56
+      depth: 0
+  - chainName: RightPinky
+    elementChain:
+    - name: characters3d.com___R_Little_Proximal
+      index: 50
+      depth: 0
+    - name: characters3d.com___R_Little_Intermediate
+      index: 51
+      depth: 0
+    - name: characters3d.com___R_Little_Distal
+      index: 52
+      depth: 0
+  - chainName: RightRing
+    elementChain:
+    - name: characters3d.com___R_Ring_Proximal
+      index: 58
+      depth: 0
+    - name: characters3d.com___R_Ring_Intermediate
+      index: 59
+      depth: 0
+    - name: characters3d.com___R_Ring_Distal
+      index: 60
+      depth: 0
+  - chainName: RightThumb
+    elementChain:
+    - name: characters3d.com___R_Thumb_Proximal
+      index: 62
+      depth: 0
+    - name: characters3d.com___R_Thumb_Intermediate
+      index: 63
+      depth: 0
+    - name: characters3d.com___R_Thumb_Distal
+      index: 64
+      depth: 0
+  - chainName: neck_01
+    elementChain:
+    - name: characters3d.com___Neck
+      index: 39
+      depth: 0
+    - name: characters3d.com___Head
+      index: 40
+      depth: 0
+  - chainName: LeftLeg
+    elementChain:
+    - name: characters3d.com___L_Upper_Leg
+      index: 2
+      depth: -1
+    - name: characters3d.com___L_Lower_Leg
+      index: 3
+      depth: -1
+    - name: characters3d.com___L_Foot
+      index: 4
+      depth: -1
+    - name: characters3d.com___L_Toes
+      index: 5
+      depth: -1
+    - name: characters3d.com___L_Toes_Tip
+      index: 6
+      depth: -1
+  - chainName: RightLeg
+    elementChain:
+    - name: characters3d.com___R_Upper_Leg
+      index: 7
+      depth: 0
+    - name: characters3d.com___R_Lower_Leg
+      index: 8
+      depth: 0
+    - name: characters3d.com___R_Foot
+      index: 9
+      depth: 0
+    - name: characters3d.com___R_Toes
+      index: 10
+      depth: 0
+    - name: characters3d.com___R_Toes_Tip
+      index: 11
+      depth: 0
+  inputConfig: {fileID: 0}
+  rigCurves: []
+  rigDepths: 00000000010000000200000003000000040000000500000006000000020000000300000004000000050000000600000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c00000005000000060000000700000005000000060000000700000008000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c00000001000000

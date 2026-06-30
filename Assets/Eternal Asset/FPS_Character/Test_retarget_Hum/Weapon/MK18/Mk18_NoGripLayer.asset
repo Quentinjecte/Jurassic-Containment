@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d86e81f2bb604158ac3e2406f16030f1, type: 3}
+  m_Name: Mk18_NoGripLayer
+  m_EditorClassIdentifier: 
+  rigAsset: {fileID: 11400000, guid: c4d9c0b46324bce44931a53e7829650e, type: 2}
+  alpha: 1
+  curveBlending:
+  - name: MaskAttachHand
+    mode: 1
+    clampMin: 0
+    source: 1
+  linkDynamically: 0
+  isStandalone: 1
+  customHandPose: {fileID: 7400000, guid: 2e6f38810f5d18346b666c94b3a2f2a5, type: 2}
+  handBone:
+    name: hand_l
+    index: 21
+    depth: 10
+  ikHandBone:
+    name: IK LeftHand
+    index: 117
+    depth: 11
+  ikWeaponBone:
+    name: IK WeaponBone
+    index: 115
+    depth: 10
+  weaponBone:
+    name: ik_hand_gun
+    index: 6
+    depth: 2
+  elementChainName: LeftHandChain
+  handPoseOffset:
+    position: {x: 0.01, y: 0.005, z: -0.03}
+    rotation: {x: 0.0077173347, y: 0.08820971, z: -0.08681327, w: -0.99228173}
+    scale: {x: 1, y: 1, z: 1}
+  overridePoseWeight: 1

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-2181661419072132862
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: S_Walk_Concrete_3_{-2181661419072132862}
+  m_AudioClip: {fileID: 8300000, guid: 8a27410d1c73e2a45801a5fe4744b420, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1555152789900189693
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: S_Walk_Concrete_1_{1555152789900189693}
+  m_AudioClip: {fileID: 8300000, guid: 519e49d57deff324882b880aa2848993, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3232880465392935039
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: S_Walk_Concrete_5_{3232880465392935039}
+  m_AudioClip: {fileID: 8300000, guid: 8b85cad4fcce87d43a0f518faa2015bd, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3826183562465586504
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: S_Walk_Concrete_4_{3826183562465586504}
+  m_AudioClip: {fileID: 8300000, guid: dc5ec9f2b46b5e541842440621b71dc3, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5432570611425465527
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: S_Walk_Concrete_2_{5432570611425465527}
+  m_AudioClip: {fileID: 8300000, guid: bd63d74025fba98479fe9ff5acf67bcf, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WalkFootStepContainerSFX
+  m_Volume: -5
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: -3, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 1555152789900189693}
+  - {fileID: 5432570611425465527}
+  - {fileID: -2181661419072132862}
+  - {fileID: 3826183562465586504}
+  - {fileID: 3232880465392935039}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 1
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0

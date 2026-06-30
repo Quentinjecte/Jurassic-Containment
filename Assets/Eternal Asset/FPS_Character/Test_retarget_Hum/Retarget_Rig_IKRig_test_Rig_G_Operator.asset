@@ -1,0 +1,812 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8320689230729174470
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Right_PinkyProximal
+    elementChain:
+    - name: Right_PinkyProximal
+      index: 59
+      depth: 0
+    - name: Right_PinkyIntermediate
+      index: 60
+      depth: 0
+    - name: Right_PinkyDistal
+      index: 61
+      depth: 0
+  targetChain:
+    chainName: RightPinky
+    elementChain:
+    - name: pinky_01_r
+      index: 81
+      depth: 0
+    - name: pinky_02_r
+      index: 82
+      depth: 0
+    - name: pinky_03_r
+      index: 83
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-5572014162370923402
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Neck
+    elementChain:
+    - name: Neck
+      index: 41
+      depth: -1
+    - name: Head
+      index: 42
+      depth: -1
+  targetChain:
+    chainName: neck_01
+    elementChain:
+    - name: neck_01
+      index: 112
+      depth: 0
+    - name: head
+      index: 114
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-4468523487015979209
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Right_Shoulder
+    elementChain:
+    - name: Right_Shoulder
+      index: 47
+      depth: -1
+    - name: Right_UpperArm
+      index: 48
+      depth: -1
+    - name: Right_LowerArm
+      index: 49
+      depth: -1
+    - name: Right_Hand
+      index: 50
+      depth: -1
+  targetChain:
+    chainName: RightSoulder
+    elementChain:
+    - name: clavicle_r
+      index: 66
+      depth: 0
+    - name: upperarm_r
+      index: 69
+      depth: 0
+    - name: lowerarm_r
+      index: 70
+      depth: 0
+    - name: hand_r
+      index: 71
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-2634270671765171395
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Left_UpperLeg
+    elementChain:
+    - name: Left_UpperLeg
+      index: 4
+      depth: 0
+    - name: Left_LowerLeg
+      index: 5
+      depth: 0
+    - name: Left_Foot
+      index: 6
+      depth: 0
+    - name: Left_Toes
+      index: 7
+      depth: 0
+  targetChain:
+    chainName: LeftLeg
+    elementChain:
+    - name: thigh_l
+      index: 117
+      depth: 0
+    - name: calf_l
+      index: 118
+      depth: 0
+    - name: foot_l
+      index: 125
+      depth: 0
+    - name: ball_l
+      index: 128
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-1833755611113103056
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Right_IndexProximal
+    elementChain:
+    - name: Right_IndexProximal
+      index: 51
+      depth: 0
+    - name: Right_IndexIntermediate
+      index: 52
+      depth: 0
+    - name: Right_IndexDistal
+      index: 53
+      depth: 0
+  targetChain:
+    chainName: RightIndex
+    elementChain:
+    - name: index_01_r
+      index: 73
+      depth: 0
+    - name: index_02_r
+      index: 74
+      depth: 0
+    - name: index_03_r
+      index: 75
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-303221381569719372
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Left_Shoulder
+    elementChain:
+    - name: Left_Shoulder
+      index: 17
+      depth: -1
+    - name: Left_UpperArm
+      index: 18
+      depth: -1
+    - name: Left_LowerArm
+      index: 19
+      depth: -1
+    - name: Left_Hand
+      index: 20
+      depth: -1
+  targetChain:
+    chainName: LeftSoulder
+    elementChain:
+    - name: clavicle_l
+      index: 18
+      depth: 0
+    - name: upperarm_l
+      index: 21
+      depth: 0
+    - name: lowerarm_l
+      index: 22
+      depth: 0
+    - name: hand_l
+      index: 23
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12349bae48c61824bb8e519537ce28eb, type: 3}
+  m_Name: Retarget_Rig_IKRig_test_Rig_G_Operator
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.RetargetProfile
+  sourceCharacter: {fileID: 0}
+  targetCharacter: {fileID: 0}
+  sourcePose: {fileID: 0}
+  targetPose: {fileID: 0}
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  excludeChain:
+    chainName: Elements To Exclude
+    elementChain: []
+  retargetFeatures:
+  - {fileID: 2126735782504882293}
+  - {fileID: 4247299907218090247}
+  - {fileID: -303221381569719372}
+  - {fileID: 8196405471637297025}
+  - {fileID: 7375436405386298106}
+  - {fileID: 2703912093054774122}
+  - {fileID: 6058973688530269319}
+  - {fileID: 5024156373171818840}
+  - {fileID: -4468523487015979209}
+  - {fileID: -1833755611113103056}
+  - {fileID: 7126584862209936972}
+  - {fileID: -8320689230729174470}
+  - {fileID: 8949365631102674940}
+  - {fileID: 6822892139698820911}
+  - {fileID: -5572014162370923402}
+  - {fileID: -2634270671765171395}
+  - {fileID: 2732118695150801469}
+--- !u!114 &2126735782504882293
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Hips
+    elementChain:
+    - name: Hips
+      index: 3
+      depth: -1
+  targetChain:
+    chainName: Hips
+    elementChain:
+    - name: pelvis
+      index: 12
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 1
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &2703912093054774122
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Left_PinkyProximal
+    elementChain:
+    - name: Left_PinkyProximal
+      index: 29
+      depth: 0
+    - name: Left_PinkyIntermediate
+      index: 30
+      depth: 0
+    - name: Left_PinkyDistal
+      index: 31
+      depth: 0
+  targetChain:
+    chainName: LeftPinky
+    elementChain:
+    - name: pinky_01_l
+      index: 33
+      depth: 0
+    - name: pinky_02_l
+      index: 34
+      depth: 0
+    - name: pinky_03_l
+      index: 35
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &2732118695150801469
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Right_UpperLeg
+    elementChain:
+    - name: Right_UpperLeg
+      index: 9
+      depth: 0
+    - name: Right_LowerLeg
+      index: 10
+      depth: 0
+    - name: Right_Foot
+      index: 11
+      depth: 0
+    - name: Right_Toes
+      index: 12
+      depth: 0
+  targetChain:
+    chainName: RightLeg
+    elementChain:
+    - name: thigh_r
+      index: 140
+      depth: 0
+    - name: calf_r
+      index: 141
+      depth: 0
+    - name: foot_r
+      index: 148
+      depth: 0
+    - name: ball_r
+      index: 151
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &4247299907218090247
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Spine
+    elementChain:
+    - name: Spine
+      index: 14
+      depth: -1
+    - name: Chest
+      index: 15
+      depth: -1
+    - name: UpperChest
+      index: 16
+      depth: -1
+  targetChain:
+    chainName: spine_01
+    elementChain:
+    - name: spine_01
+      index: 13
+      depth: 0
+    - name: spine_03
+      index: 15
+      depth: 0
+    - name: spine_05
+      index: 17
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &5024156373171818840
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Left_ThumbProximal
+    elementChain:
+    - name: Left_ThumbProximal
+      index: 37
+      depth: 0
+    - name: Left_ThumbIntermediate
+      index: 38
+      depth: 0
+    - name: Left_ThumbDistal
+      index: 39
+      depth: 0
+  targetChain:
+    chainName: LeftThumb
+    elementChain:
+    - name: thumb_01_l
+      index: 40
+      depth: 0
+    - name: thumb_02_l
+      index: 41
+      depth: 0
+    - name: thumb_03_l
+      index: 42
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &6058973688530269319
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Left_RingProximal
+    elementChain:
+    - name: Left_RingProximal
+      index: 33
+      depth: 0
+    - name: Left_RingIntermediate
+      index: 34
+      depth: 0
+    - name: Left_RingDistal
+      index: 35
+      depth: 0
+  targetChain:
+    chainName: LeftRing
+    elementChain:
+    - name: ring_01_l
+      index: 37
+      depth: 0
+    - name: ring_02_l
+      index: 38
+      depth: 0
+    - name: ring_03_l
+      index: 39
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &6822892139698820911
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Right_ThumbProximal
+    elementChain:
+    - name: Right_ThumbProximal
+      index: 67
+      depth: 0
+    - name: Right_ThumbIntermediate
+      index: 68
+      depth: 0
+    - name: Right_ThumbDistal
+      index: 69
+      depth: 0
+  targetChain:
+    chainName: RightThumb
+    elementChain:
+    - name: thumb_01_r
+      index: 88
+      depth: 0
+    - name: thumb_02_r
+      index: 89
+      depth: 0
+    - name: thumb_03_r
+      index: 90
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &7126584862209936972
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Right_MiddleProximal
+    elementChain:
+    - name: Right_MiddleProximal
+      index: 55
+      depth: 0
+    - name: Right_MiddleIntermediate
+      index: 56
+      depth: 0
+    - name: Right_MiddleDistal
+      index: 57
+      depth: 0
+  targetChain:
+    chainName: RightMiddle
+    elementChain:
+    - name: middle_01_r
+      index: 77
+      depth: 0
+    - name: middle_02_r
+      index: 78
+      depth: 0
+    - name: middle_03_r
+      index: 79
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &7375436405386298106
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Left_MiddleProximal
+    elementChain:
+    - name: Left_MiddleProximal
+      index: 25
+      depth: 0
+    - name: Left_MiddleIntermediate
+      index: 26
+      depth: 0
+    - name: Left_MiddleDistal
+      index: 27
+      depth: 0
+  targetChain:
+    chainName: LeftMiddle
+    elementChain:
+    - name: middle_01_l
+      index: 29
+      depth: 0
+    - name: middle_02_l
+      index: 30
+      depth: 0
+    - name: middle_03_l
+      index: 31
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &8196405471637297025
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Left_IndexProximal
+    elementChain:
+    - name: Left_IndexProximal
+      index: 21
+      depth: 0
+    - name: Left_IndexIntermediate
+      index: 22
+      depth: 0
+    - name: Left_IndexDistal
+      index: 23
+      depth: 0
+  targetChain:
+    chainName: LeftIndex
+    elementChain:
+    - name: index_01_l
+      index: 25
+      depth: 0
+    - name: index_02_l
+      index: 26
+      depth: 0
+    - name: index_03_l
+      index: 27
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &8949365631102674940
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: RetargetPro.Runtime::KINEMATION.RetargetPro.Runtime.Features.IKRetargeting.IKRetargetFeature
+  sourceRig: {fileID: 11400000, guid: c36cd2afb80bc194a869195675be0385, type: 2}
+  targetRig: {fileID: 11400000, guid: 39037fe7d60dad4488ac8f99849c1f02, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Right_RingProximal
+    elementChain:
+    - name: Right_RingProximal
+      index: 63
+      depth: 0
+    - name: Right_RingIntermediate
+      index: 64
+      depth: 0
+    - name: Right_RingDistal
+      index: 65
+      depth: 0
+  targetChain:
+    chainName: RightRing
+    elementChain:
+    - name: ring_01_r
+      index: 85
+      depth: 0
+    - name: ring_02_r
+      index: 86
+      depth: 0
+    - name: ring_03_r
+      index: 87
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
