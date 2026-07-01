@@ -1,9 +1,9 @@
 ﻿<Solution>
   <Project Path="FPSAnimationFramework.Runtime.csproj" />
   <Project Path="KAnimationCore.Editor.csproj" />
-  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="RetargetPro.Runtime.csproj" />
   <Project Path="KAnimationCore.Runtime.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="RetargetPro.Editor.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="ScriptableWidget.Runtime.csproj" />
