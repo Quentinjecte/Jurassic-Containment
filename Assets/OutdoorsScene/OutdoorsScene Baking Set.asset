@@ -17,11 +17,11 @@ MonoBehaviour:
     - 8124e5870f4fd4c779e7a5f994e84ad1
     - b471bbfbe68ff544b883ac1c7ee9e08f
     m_Values:
-    - hasProbeVolume: 0
+    - hasProbeVolume: 1
       bakeScene: 1
       bounds:
-        m_Center: {x: 1701, y: 243, z: 1458}
-        m_Extent: {x: 3159, y: 729, z: 3402}
+        m_Center: {x: 1701, y: 243, z: 1215}
+        m_Extent: {x: 1701, y: 729, z: 1215}
     - hasProbeVolume: 1
       bakeScene: 1
       bounds:

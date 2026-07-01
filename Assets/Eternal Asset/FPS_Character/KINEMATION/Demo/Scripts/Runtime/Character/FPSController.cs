@@ -41,6 +41,7 @@ namespace Demo.Scripts.Runtime.Character
         private FPSMovement _movementComponent;
 
         [Header("Interracting"), Space(5f)]
+        private IInteract currentInteract;
         private RaycastHit[] results = new RaycastHit[2];  // Pre-allocated array for // 2 for skip if i hit my weapon in hand
         public float interactRange = 1.5f;
         public LayerMask hiting;
@@ -460,10 +461,14 @@ namespace Demo.Scripts.Runtime.Character
                     hit.collider.gameObject == _activeItem.gameObject)
                     continue;
 
-                /*if (!hit.collider.TryGetComponent(out IInteractible interact))
-                    continue;*/
+                if (!hit.collider.TryGetComponent(out IInteract interact))
+                    continue;
 
-                //TextPopUp.instance.ShowStaticLabel(interact.InteractionPrompt);
+                currentInteract = interact;
+
+                interact.Show();
+
+                TextPopUp.instance.ShowStaticLabel(interact.Prompt);
                 return; // On prend le premier valide
             }
             TextPopUp.instance.HideStaticLabel();
@@ -499,13 +504,11 @@ namespace Demo.Scripts.Runtime.Character
                 weapon.OnMagCheck();
             _actionState = FPSActionState.PlayingAnimation;
         }       
-
         public void OnThrowGrenade(InputAction.CallbackContext ctx)
         {
             if (IsSprinting()|| HasActiveAction() || !GetActiveItem().OnGrenadeThrow()) return;
             _actionState = FPSActionState.PlayingAnimation;
         }
-        
         public void OnFire(InputAction.CallbackContext ctx)
         {
             if (IsSprinting()) return;
@@ -518,7 +521,6 @@ namespace Demo.Scripts.Runtime.Character
             
             OnFireReleased();
         }
-
         public void OnAim(InputAction.CallbackContext ctx)
         {
             if (IsSprinting()) return;
@@ -539,12 +541,10 @@ namespace Demo.Scripts.Runtime.Character
                 OnEnableAim?.Invoke();
             }
         }
-
         public void OnChangeWeapon(InputAction.CallbackContext ctx) => ChangeWeapon();
-
         public void ChangeWeapon(int nxtWeapon = -1)
         {
-            /*if (_movementComponent.PoseState == FPSPoseState.Prone) return;
+            if (_movementComponent.PoseState == FPSPoseState.Prone) return;
             if (HasActiveAction() || Equipement.AllEquipSlot(ObjectType.p_Arme).Length == 0) return;
 
             if(nxtWeapon == -1)
@@ -569,7 +569,7 @@ namespace Demo.Scripts.Runtime.Character
 
             if (Array.IndexOf(Equipement.AllEquipSlot(ObjectType.p_Arme), _activeItem) == -1)
                 StartWeaponChange(_unArmed); //Aucune arme possédé
-            Unarmed = true;*/
+            Unarmed = true;
 
             /* Logic
              
@@ -611,7 +611,6 @@ namespace Demo.Scripts.Runtime.Character
 
              */
         }
-
         public void OnLook(InputAction.CallbackContext ctx)
         {
             if (ctx.performed)
@@ -620,7 +619,6 @@ namespace Demo.Scripts.Runtime.Character
             if (ctx.canceled)
                 _lookDeltaInput = Vector2.zero;
         }
-
         public void OnLean(InputAction.CallbackContext ctx)
         {
             _userInput.SetValue(FPSANames.LeanInput, ctx.ReadValue<float>() * settings.leanAngle);
@@ -628,7 +626,6 @@ namespace Demo.Scripts.Runtime.Character
             audioSource.Play();
             PlayTransitionMotion(settings.leanMotion);
         }
-
         public void OnCycleScope(InputAction.CallbackContext ctx)
         {
             if (!IsAiming()) return;
@@ -636,12 +633,10 @@ namespace Demo.Scripts.Runtime.Character
             GetActiveItem().OnCycleScope();
             PlayTransitionMotion(settings.aimingMotion);
         }
-
         public void OnChangeFireMode(InputAction.CallbackContext ctx)
         {
             GetActiveItem().OnChangeFireMode();
         }
-
         public void OnInspect(InputAction.CallbackContext ctx)
         {
             if (HasActiveAction() && _actionState != FPSActionState.Inspect) return;
@@ -664,54 +659,69 @@ namespace Demo.Scripts.Runtime.Character
             if (!ctx.performed)
                 return;
 
-            Debug.Log("perform");
-            Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
+            /* Debug.Log("perform");
+             Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
 
-            Debug.Log(ray);
-            // 1. Raycast principal
-            if (!Physics.Raycast(ray, out RaycastHit hit, interactRange))
-                return;
+             Debug.Log(ray);
+             // 1. Raycast principal
+             if (!Physics.Raycast(ray, out RaycastHit hit, interactRange))
+                 return;
 
-            Debug.Log(hit);
-            Vector3 start = hit.point;
-            Vector3 direction = Camera.main.transform.forward;
+             Debug.Log(hit);
+             Vector3 start = hit.point;
+             Vector3 direction = Camera.main.transform.forward;
 
-            // 2. SphereCast au bout du ray
-            RaycastHit[] sphereHits = Physics.SphereCastAll(start, .5f, direction, 0.1f);
+             // 2. SphereCast au bout du ray
+             RaycastHit[] sphereHits = Physics.SphereCastAll(start, .5f, direction, 0.1f);
 
-            Debug.Log(sphereHits);
-            if (sphereHits.Length == 0)
-                return;
+             Debug.Log(sphereHits);
+             if (sphereHits.Length == 0)
+                 return;
 
-            // 3. Trier une seule fois
-            Array.Sort(sphereHits, (a, b) => a.distance.CompareTo(b.distance));
+             // 3. Trier une seule fois
+             Array.Sort(sphereHits, (a, b) => a.distance.CompareTo(b.distance));
 
-            // 4. Prendre le plus proche
-            /*RaycastHit closest = sphereHits.First(w => w.collider.TryGetComponent<IInteractible>(out _));
+             // 4. Prendre le plus proche
+             RaycastHit closest = sphereHits.First(w => w.collider.TryGetComponent<IInteract>(out _));
 
-            Debug.Log(closest);
-            // 5. Ignorer l'objet tenu
-            if (!Unarmed && closest.collider.gameObject == _activeItem.gameObject)
-                return;
+             Debug.Log(closest);
+             // 5. Ignorer l'objet tenu
+             if (!Unarmed && closest.collider.gameObject == _activeItem.gameObject)
+                 return;
 
-            GameObject go = hit.collider.gameObject;
-            var interactibles = go.GetComponents<IInteractible>();
+             GameObject go = hit.collider.gameObject;
+             var interactibles = go.GetComponents<IInteract>();
 
-            Debug.Log(interactibles.Length);
-            if (interactibles.Length == 0)
-                return;
+             Debug.Log(interactibles.Length);
+             if (interactibles.Length == 0)
+                 return;*/
 
             // 6. Interaction
-            foreach (var interactible in interactibles)
+            /*foreach (var interactible in interactibles)
             {
                 if (ctx.interaction is TapInteraction)
-                    interactible.Use_Interact(gameObject);
+                    interactible.Interact(gameObject);
                 else if (ctx.interaction is HoldInteraction)
                 {
                     Debug.Log("Hold");
-                    interactible.Take_Interact(gameObject);
+                    interactible.HoldInteract(gameObject);
                 }
             }*/
+
+            if (ctx.interaction is TapInteraction)
+                currentInteract.Interact(gameObject);
+            else if (ctx.interaction is HoldInteraction)
+            {
+                Debug.Log("Hold");
+                currentInteract.HoldInteract(gameObject);
+            }
+
+            if (ctx.canceled)
+            {
+                currentInteract?.EndInteract(gameObject);
+
+                currentInteract = null;
+            }
         }
 
 
